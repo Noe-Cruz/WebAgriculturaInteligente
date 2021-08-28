@@ -35,7 +35,6 @@ $( document ).ready( function(){
             }
         })
         .done( function( json ){
-
             if( json.mensaje == true ){
                 $( "#modalMensaje" ).modal( "show" );
                 $( "#modalMensajeTittle" ).html( "¡ÉXITO!" );

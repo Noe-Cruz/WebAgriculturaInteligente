@@ -33,7 +33,7 @@ $( document ).ready( function(){
             error_formulario( "modal-agua-max", "" );
             return false;       
         }
-        else if( $( "#modal-agua-min" ).val() < 1 || $( "#modal-agua-min" ).val() > 99 ){
+        else if( $( "#modal-agua-min" ).val() < 0 || $( "#modal-agua-min" ).val() > 99 ){
             error_formulario( "modal-agua-max", "" );
             return false;       
         }
@@ -41,7 +41,7 @@ $( document ).ready( function(){
             error_formulario( "modal-luz-max", "" );
             return false;       
         }
-        else if( $( "#modal-luz-min" ).val() < 1 || $( "#modal-luz-min" ).val() > 99 ){
+        else if( $( "#modal-luz-min" ).val() < 0 || $( "#modal-luz-min" ).val() > 99 ){
             error_formulario( "modal-luz-max", "" );
             return false;       
         }
